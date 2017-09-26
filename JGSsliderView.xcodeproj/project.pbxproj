@@ -13,6 +13,8 @@
 		323C8AD11F25D23B00376346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323C8ACF1F25D23B00376346 /* Main.storyboard */; };
 		323C8AD31F25D23B00376346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323C8AD21F25D23B00376346 /* Assets.xcassets */; };
 		323C8AD61F25D23B00376346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323C8AD41F25D23B00376346 /* LaunchScreen.storyboard */; };
+		323C8ADF1F25D28700376346 /* jgsSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C8ADE1F25D28700376346 /* jgsSliderView.m */; };
+		323C8AE21F2711A000376346 /* DrawRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 323C8AE11F2711A000376346 /* DrawRound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		323C8AD21F25D23B00376346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		323C8AD51F25D23B00376346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323C8AD71F25D23B00376346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323C8ADD1F25D28700376346 /* jgsSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jgsSliderView.h; sourceTree = "<group>"; };
+		323C8ADE1F25D28700376346 /* jgsSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jgsSliderView.m; sourceTree = "<group>"; };
+		323C8AE01F2711A000376346 /* DrawRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRound.h; sourceTree = "<group>"; };
+		323C8AE11F2711A000376346 /* DrawRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRound.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				323C8ACA1F25D23B00376346 /* AppDelegate.m */,
 				323C8ACC1F25D23B00376346 /* ViewController.h */,
 				323C8ACD1F25D23B00376346 /* ViewController.m */,
+				323C8ADD1F25D28700376346 /* jgsSliderView.h */,
+				323C8ADE1F25D28700376346 /* jgsSliderView.m */,
+				323C8AE01F2711A000376346 /* DrawRound.h */,
+				323C8AE11F2711A000376346 /* DrawRound.m */,
 				323C8ACF1F25D23B00376346 /* Main.storyboard */,
 				323C8AD21F25D23B00376346 /* Assets.xcassets */,
 				323C8AD41F25D23B00376346 /* LaunchScreen.storyboard */,
@@ -151,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323C8ADF1F25D28700376346 /* jgsSliderView.m in Sources */,
 				323C8ACE1F25D23B00376346 /* ViewController.m in Sources */,
 				323C8ACB1F25D23B00376346 /* AppDelegate.m in Sources */,
+				323C8AE21F2711A000376346 /* DrawRound.m in Sources */,
 				323C8AC81F25D23B00376346 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +326,7 @@
 				323C8ADC1F25D23B00376346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
