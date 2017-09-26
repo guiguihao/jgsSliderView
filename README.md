@@ -4,6 +4,7 @@
 ####使用方法
 
 jgsSliderView *jgsview = [[jgsSliderView alloc]initWithFrame:CGRectMake(100, 100, 200, 35)];
+
 [self.view addSubview:jgsview];
 
 ![](https://github.com/guiguihao/jgsSliderView/blob/master/ys.gif)
